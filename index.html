@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="utf-8" />
+    <title>SkyWay MR-9107 Controller</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class=main>
+        <div class="title">
+            <p><img class="title-log" src='https://webrtc.ecl.ntt.com/images/skyway-logo.svg' width=107 height=38 alt="SkyWay"></p>
+            <p class='title-text'>MR-9107 Controller</p>
+        </div>
+        <div class="video">
+            <video id="remoteVideo" muted="true"></video>
+            <div class="controller-left">
+                    <div class="cross-layout">
+                        <button id="topButton" class="position-top btn cross-key-btn"><span class="top-mark">▲</span></button>
+                        <button id="leftButton" class="position-left btn cross-key-btn"><span class="left-mark">▲</span></button>
+                        <button id="centerButton" class="position-center btn cross-key-btn"><span class="center-mark">●</span></button>
+                        <button id="rightButton" class="position-right btn cross-key-btn"><span class="right-mark">▲</span></button>
+                        <button id="bottomButton" class="position-bottom btn cross-key-btn"><span class="bottom-mark">▲</span></button>
+                    </div>
+            </div>
+        </div> 
+        <textarea id="consoleLog" readonly="readonly" rows="11" wrap="hard"></textarea>
+        <input type="text" id="targetPeeridBox" placeholder="Input the PeerID"></input><button id="connectButton">connect</button>
+    </div>
+</body>
+<script src="js/bundle.js"></script>
+</html>
+
