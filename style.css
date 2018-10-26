@@ -17,12 +17,12 @@ body {
 
 .main {
  position: absolute;
- margin-top: -410px;
+ margin-top: -446px;
  margin-left: -320px;
  top: 50%;
  left: 50%;
  width: 640px;
- height: 820px
+ height: 892px
 }
 
 .video {
