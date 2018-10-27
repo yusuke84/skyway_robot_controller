@@ -163,3 +163,9 @@ input {
     width: 200px;
     height: 100px;
 }
+
+.rotate {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
