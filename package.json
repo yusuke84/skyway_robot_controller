@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/yusuke84/skyway_robot_controller#readme",
   "dependencies": {
-    "skyway-js": "^1.1.17"
+    "skyway-js": "^2.0.0"
   },
   "devDependencies": {
     "path": "^0.12.7",
